@@ -9,7 +9,7 @@ import requests # Necessary for API communication
 
 # --- CONFIGURATION ---
 # CRITICAL: Use the public URL of your deployed FastAPI Space.
-API_ENDPOINT_URL = "https://yashkumfuv-credit-scoring.hf.space"
+API_ENDPOINT_URL = "https://yashkumfux-credit-scoring.hf.space"
 
 # --- Page Configuration ---
 st.set_page_config(
