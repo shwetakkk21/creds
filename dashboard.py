@@ -168,7 +168,7 @@ with st.sidebar.form(key='applicant_form'):
 
 # --- Calculation Logic (Sending Data to FastAPI) ---
 if submit_button:
-    if API_ENDPOINT_URL == "https://yashkumfuv-credit-scoring.hf.space":
+    if API_ENDPOINT_URL == "https://yashkumfux-credit-scoring.hf.space":
         # Check if the user needs to upload a bank statement to verify the income
         verified_income, verification_message = analyze_bank_statement(uploaded_statement)
         net_monthly_income = verified_income if verified_income is not None and verified_income > 0 else user_inputs['Income']
