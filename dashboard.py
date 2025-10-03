@@ -10,6 +10,12 @@ import requests # Necessary for API communication
 # --- CONFIGURATION ---
 # CRITICAL: Use the public URL of your deployed FastAPI Space.
 API_ENDPOINT_URL = "https://yashkumfux-credit-scoring.hf.space"
+if API_ENDPOINT_URL == "https://yashkumfux-credit-scoring.hf.space":
+            # DO NOTHING
+            pass
+else:
+            st.error("🚨 API Endpoint not set correctly! Please update API_ENDPOINT_URL.")
+            # ...
 
 # --- Page Configuration ---
 st.set_page_config(
