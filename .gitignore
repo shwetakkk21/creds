@@ -1,0 +1,14 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+
+.DS_Store
+.vscode/
+.idea/
+
+*.png
+Final_Scored_Unseen_Data.xlsx
